@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TZBase_Example' do
+  pod 'TZBase', :path => '../'
+
+  target 'TZBase_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
