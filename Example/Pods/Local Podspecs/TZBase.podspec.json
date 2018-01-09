@@ -1,0 +1,22 @@
+{
+  "name": "TZBase",
+  "version": "0.1.0",
+  "summary": "A short description of TZBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wjc/TZBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wjc": "wangjiucheng@tt52.com"
+  },
+  "source": {
+    "git": "https://github.com/wjc/TZBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TZBase/Classes/**/*"
+}

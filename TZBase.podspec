@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TZBase'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TZBase.'
+  s.summary          = 'It is my TZBase Library Demo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,13 +19,14 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+It is my TZBase Library Demo.
                        DESC
 
-  s.homepage         = 'https://github.com/wjc/TZBase'
+  s.homepage         = 'https://github.com/CityFire/TZBase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wjc' => 'wangjiucheng@tt52.com' }
-  s.source           = { :git => 'https://github.com/wjc/TZBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CityFire/TZBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
