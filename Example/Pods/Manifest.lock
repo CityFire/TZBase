@@ -1,10 +1,8 @@
 PODS:
-  - Aspects (1.4.1)
   - JRSwizzle (1.0)
   - TZBase (0.1.0)
 
 DEPENDENCIES:
-  - Aspects
   - JRSwizzle
   - TZBase (from `../`)
 
@@ -13,10 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
   TZBase: 0726dea735a9f6230198660c0c2ed7759f556f14
 
-PODFILE CHECKSUM: 237b200a4f3a7c132210871fe6e0ee0e44dc8398
+PODFILE CHECKSUM: c65e016008d7ce512c2207e95c1f841c5168cfe5
 
 COCOAPODS: 1.3.1

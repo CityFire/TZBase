@@ -7,6 +7,6 @@ target 'TZBase_Example' do
     inherit! :search_paths
 
     pod 'JRSwizzle'
-    pod 'Aspects'
+#    pod 'Aspects'
   end
 end

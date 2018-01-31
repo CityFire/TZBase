@@ -9,7 +9,7 @@
 #import "UICollectionView+TZUserClickStatistics.h"
 #import "TZHookUtil.h"
 #import <objc/runtime.h>
-#import <Aspects/Aspects.h>
+#import "Aspects.h"
 #import "TZUserStatistics.h"
 #import "AOPLoggerClickProtocol.h"
 #import "TZStatisticInterceptionManager.h"

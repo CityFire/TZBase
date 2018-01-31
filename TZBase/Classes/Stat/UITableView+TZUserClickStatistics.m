@@ -9,7 +9,7 @@
 #import "UITableView+TZUserClickStatistics.h"
 #import "TZHookUtil.h"
 #import <objc/runtime.h>
-#import <Aspects/Aspects.h>
+#import "Aspects.h"
 #import "TZStatisticInterceptionManager.h"
 #import "AOPLoggerClickProtocol.h"
 
