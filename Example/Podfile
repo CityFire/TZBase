@@ -6,7 +6,7 @@ target 'TZBase_Example' do
   target 'TZBase_Tests' do
     inherit! :search_paths
 
-    pod 'Kiwi'
-    pod 'FBSnapshotTestCase'
+    pod 'JRSwizzle'
+    pod 'Aspects'
   end
 end

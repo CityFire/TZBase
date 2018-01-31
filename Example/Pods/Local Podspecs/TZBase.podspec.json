@@ -1,9 +1,9 @@
 {
   "name": "TZBase",
   "version": "0.1.0",
-  "summary": "A short description of TZBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wjc/TZBase",
+  "summary": "It is my TZBase Library Demo.",
+  "description": "TODO: Add long description of the pod here.\nIt is my TZBase Library Demo.",
+  "homepage": "https://github.com/CityFire/TZBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "wjc": "wangjiucheng@tt52.com"
   },
   "source": {
-    "git": "https://github.com/wjc/TZBase.git",
+    "git": "https://github.com/CityFire/TZBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
