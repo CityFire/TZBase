@@ -5,8 +5,8 @@ target 'TZBase_Example' do
 
   target 'TZBase_Tests' do
     inherit! :search_paths
-
-    pod 'JRSwizzle'
+    #第三方库如果工程大的话最好放在主工程里，放在组件工程的话依赖多的话编译会很慢
+#    pod 'JRSwizzle'
 #    pod 'Aspects'
   end
 end

@@ -1,8 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle" "$PODS_CONFIGURATION_BUILD_DIR/TZBase"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Aspects" "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle" "$PODS_CONFIGURATION_BUILD_DIR/TZBase"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle/JRSwizzle.framework/Headers" $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/TZBase/TZBase.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "JRSwizzle"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Aspects/Aspects.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle/JRSwizzle.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/TZBase/TZBase.framework/Headers"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

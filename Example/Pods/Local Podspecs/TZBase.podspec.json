@@ -1,6 +1,6 @@
 {
   "name": "TZBase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "It is my TZBase Library Demo.",
   "description": "TODO: Add long description of the pod here.\nIt is my TZBase Library Demo.",
   "homepage": "https://github.com/CityFire/TZBase",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/CityFire/TZBase.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TZBase/Classes/**/*"
+  "source_files": "TZBase/Classes/**/*",
+  "dependencies": {
+    "JRSwizzle": [
+      "~> 1.0"
+    ],
+    "Aspects": [
+      "~>1.4.1"
+    ]
+  }
 }
